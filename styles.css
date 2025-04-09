@@ -1,0 +1,75 @@
+/* CSS for HTML5 Starter V5 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f6f8fa;
+  color: #222;
+  padding: 20px;
+}
+
+header, nav, main, footer {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-left: 0;
+}
+
+nav a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"], input[type="email"] {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+  background-color: #007acc;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #005fa3;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
