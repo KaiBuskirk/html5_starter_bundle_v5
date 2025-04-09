@@ -1,0 +1,10 @@
+{
+   "liveServer.settings.CustomBrowser": "chrome",
+   "files.autoSave": "afterDelay",
+   "files.autoSaveDelay": 1000,
+   "editor.wordWrap": "on",
+   "editor.tabSize": 2,
+   "liveServer.settings.wait": 1,
+   "liveServer.settings.donotShowInfoMsg": true
+ }
+ 
